@@ -7,7 +7,8 @@ namespace HealthCalculator
         public bool underweight, normal, overweight, obese = false;
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+
 
             /*
              * The health calculator will produce the Body Mass Index (BMI), Basal Metabolic Rate (BMR), 
