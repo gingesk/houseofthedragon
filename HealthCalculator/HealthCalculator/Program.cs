@@ -4,7 +4,7 @@ namespace HealthCalculator
 {
     class Program
     {
-        public bool underweight, normal, overweight, obese = false;
+        public bool underweight, normal, overweight, obese;
         public float weight;        
         public int heightInCentimeters;
 
@@ -26,6 +26,17 @@ namespace HealthCalculator
 
 
                 // collect weight
+                // pounds, stones and pounds
+                int poundsOrStones = GetIntInput("Please indicate if you will be entering your weight in pounds, or stones & pounds.\n Enter 1 for Pounds, or 2 for Stones & pounds\n");
+                if (poundsOrStones == 1) // pounds 
+                {
+                    float pounds = GetFloatInput("Please enter your weight in pounds. For example, you may enter '154.32'\n");
+                }
+
+                if (poundsOrStones == 2) // stones and pounds
+                {
+
+                }
             }
 
 
@@ -118,6 +129,37 @@ namespace HealthCalculator
 
             return parsedValue;
         }
+        public static float GetFloatInput(string message)
+        {
+            // initialisation of local variables 
+            float parsedValue;
+            string rawInput;
+
+            while (true)
+            {
+                try
+                {
+                    Console.WriteLine(message); // print out to the user what we're asking for
+                    rawInput = Console.ReadLine(); // store whatever we receive in a string 
+                    float.TryParse(rawInput, out parsedValue); // attempt to convert that to a number
+
+                    if (parsedValue != 0)
+                    {
+                        break;
+                    }
+                    if (parsedValue == 0)
+                    {
+                        Console.WriteLine("Incorrect input! Please enter a number");
+                    }
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("Input incorrect. Please enter a number");
+                }
+            }
+            return parsedValue;
+        }
+
 
     }
 }
