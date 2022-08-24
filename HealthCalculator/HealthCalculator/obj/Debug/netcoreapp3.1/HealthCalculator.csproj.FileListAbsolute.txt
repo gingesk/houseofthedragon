@@ -1,0 +1,14 @@
+C:\Users\sean-c\source\repos\houseofthedragon\HealthCalculator\HealthCalculator\bin\Debug\netcoreapp3.1\HealthCalculator.exe
+C:\Users\sean-c\source\repos\houseofthedragon\HealthCalculator\HealthCalculator\bin\Debug\netcoreapp3.1\HealthCalculator.deps.json
+C:\Users\sean-c\source\repos\houseofthedragon\HealthCalculator\HealthCalculator\bin\Debug\netcoreapp3.1\HealthCalculator.runtimeconfig.json
+C:\Users\sean-c\source\repos\houseofthedragon\HealthCalculator\HealthCalculator\bin\Debug\netcoreapp3.1\HealthCalculator.runtimeconfig.dev.json
+C:\Users\sean-c\source\repos\houseofthedragon\HealthCalculator\HealthCalculator\bin\Debug\netcoreapp3.1\HealthCalculator.dll
+C:\Users\sean-c\source\repos\houseofthedragon\HealthCalculator\HealthCalculator\bin\Debug\netcoreapp3.1\HealthCalculator.pdb
+C:\Users\sean-c\source\repos\houseofthedragon\HealthCalculator\HealthCalculator\obj\Debug\netcoreapp3.1\HealthCalculator.csproj.AssemblyReference.cache
+C:\Users\sean-c\source\repos\houseofthedragon\HealthCalculator\HealthCalculator\obj\Debug\netcoreapp3.1\HealthCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sean-c\source\repos\houseofthedragon\HealthCalculator\HealthCalculator\obj\Debug\netcoreapp3.1\HealthCalculator.AssemblyInfoInputs.cache
+C:\Users\sean-c\source\repos\houseofthedragon\HealthCalculator\HealthCalculator\obj\Debug\netcoreapp3.1\HealthCalculator.AssemblyInfo.cs
+C:\Users\sean-c\source\repos\houseofthedragon\HealthCalculator\HealthCalculator\obj\Debug\netcoreapp3.1\HealthCalculator.csproj.CoreCompileInputs.cache
+C:\Users\sean-c\source\repos\houseofthedragon\HealthCalculator\HealthCalculator\obj\Debug\netcoreapp3.1\HealthCalculator.dll
+C:\Users\sean-c\source\repos\houseofthedragon\HealthCalculator\HealthCalculator\obj\Debug\netcoreapp3.1\HealthCalculator.pdb
+C:\Users\sean-c\source\repos\houseofthedragon\HealthCalculator\HealthCalculator\obj\Debug\netcoreapp3.1\HealthCalculator.genruntimeconfig.cache

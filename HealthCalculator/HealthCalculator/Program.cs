@@ -5,9 +5,28 @@ namespace HealthCalculator
     class Program
     {
         public bool underweight, normal, overweight, obese = false;
+        public float weight;        
+        public int heightInCentimeters;
+
         static void Main(string[] args)
         {
+            // TODO: Create menu system
 
+            // need to collect weight & height - imperial
+            // need to collect weight & height - metric
+
+            int unitSystem = ImperialOrMetric();
+
+            if (unitSystem == 1) // imperial
+            {
+                Console.WriteLine("Please enter your height in feet and inches. You will be prompted for feet initally, and then Inches.\n" +
+                    "For example, if you are 5 feet 7 inches, you will need to first enter " + 5 + " and then you will enter " + 7 + " after, when prompted.\n");
+                int feet = GetIntInput("Please enter the feet."); // 0.3048m
+                int inches = GetIntInput("Please now enter the inches."); //0.0254m
+
+
+                // collect weight
+            }
 
 
             /*
@@ -39,7 +58,7 @@ namespace HealthCalculator
              */
         }
 
-        public int ImperialOrMetric()
+        public static int ImperialOrMetric()
         {
             while (true)
             {
