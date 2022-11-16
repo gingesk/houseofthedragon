@@ -7,6 +7,14 @@ namespace benjinstark
         static void Main(string[] args)
         {
             Console.WriteLine("Hello Benjin Stark!");
+            Console.WriteLine("Hello Benjin Stark!");
+            Console.WriteLine("Hello Benjin Stark!");
+            Console.WriteLine("Hello Benjin Stark!");
+            Console.WriteLine("Hello Benjin Stark!");
+            Console.WriteLine("Hello Benjin Stark!");
+            Console.WriteLine("Hello Benjin Stark!");
+            Console.WriteLine("Hello Benjin Stark!");
+
         }
     }
 }

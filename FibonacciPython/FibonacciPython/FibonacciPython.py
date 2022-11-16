@@ -22,6 +22,6 @@ while running:
                 break
         except ValueError:
             print("Input is not a valid number. Try again.")
-    print(f"Nth term: {term}")
+    print("Nth term: {term}")
     print(f"Value: {sequence[term]}")
                 
