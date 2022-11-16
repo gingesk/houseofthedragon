@@ -9,11 +9,7 @@ namespace benjinstark
             Console.WriteLine("Hello Benjin Stark!");
             Console.WriteLine("Hello Benjin Stark!");
             Console.WriteLine("Hello Benjin Stark!");
-            Console.WriteLine("Hello Benjin Stark!");
-            Console.WriteLine("Hello Benjin Stark!");
-            Console.WriteLine("Hello Benjin Stark!");
-            Console.WriteLine("Hello Benjin Stark!");
-            Console.WriteLine("Hello Benjin Stark!");
+
 
         }
     }
